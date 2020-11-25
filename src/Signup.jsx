@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import "../node_modules/popper.js";
@@ -12,6 +12,11 @@ const Signup = () =>
         mobile: "",
         email: "",
         password: "",
+    });
+
+    useEffect(() =>
+    { 
+        document.title = "SignUp";
     });
 
     const inputData = (e) =>
