@@ -36,8 +36,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Screenshots
 
+![ss1.png](public/ss1.png)
 
-
+![ss2.png](public/ss2.png)
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
